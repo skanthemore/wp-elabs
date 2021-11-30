@@ -1,0 +1,27 @@
+{
+  "name": "twentytwentyone-child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "terser-webpack-plugin": "^5.2.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

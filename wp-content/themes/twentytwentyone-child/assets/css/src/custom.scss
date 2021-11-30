@@ -1,0 +1,47 @@
+
+
+// main color
+$base-color:        #EEEBDD;
+$secondary-color:   #D8B6A4;
+$headline-color:    #630000;
+$link-color:        #630000;
+$text-color:        #000000;
+
+
+
+body {
+    background: $base-color;
+    font-size: 15px;
+}
+
+$big-text:          4em;
+$medium-text:       3em;;
+$normal-text:       1em;
+$small-text:        .90em;
+
+h1, h2, h3, h4, h5 {
+    color: $text-color;
+}
+
+h1 {
+    font-size: $big-text;
+}
+
+p {
+    font-size: $normal-text;
+}
+
+a {
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    opacity: 1;   
+    color: $link-color; 
+}
+
+a:hover {
+    opacity:.5
+}
+
+.btn-secondary {
+    background-color: $link-color;
+}

@@ -1,0 +1,18 @@
+@import "custom";
+
+.site-header {
+    padding-top: 25px;
+    padding-bottom: 0; 
+
+}
+
+.site-title a:link, .site-title a:visited, .site-title a:active, .site-title {
+    color: $link-color;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.site-description {
+    font-size: $small-text;
+    line-height: 1;
+}
